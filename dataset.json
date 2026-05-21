@@ -1,0 +1,235 @@
+[
+  {
+    "id": "product_management",
+    "domain": "Product Management",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a product manager, I want to prioritize backlog items based on customer feedback so that we build what users value most.",
+      "As a product manager, I want to create a product roadmap so that all stakeholders are aligned on timelines and goals.",
+      "As a product manager, I want to analyze competitor features so that we can offer unique value to our users.",
+      "As a product manager, I want to prioritize user feedback, so that I can refine the roadmap based on actual needs.",
+      "As a product manager, I want to view performance metrics by feature, so I can evaluate product-market fit."
+    ]
+  },
+  {
+    "id": "project_management",
+    "domain": "Project Management",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a project manager, I want to track sprint velocity so that I can predict project timelines more accurately.",
+      "As a project manager, I want to get automated status updates from Jira so that I can reduce time spent on manual reporting.",
+      "As a project manager, I want to assign tasks to team members based on skill set so that we increase delivery efficiency.",
+      "As a project manager, I want to track team velocity over sprints, so I can better plan future releases.",
+      "As a project manager, I want to set project milestones, so the team has clear targets to achieve."
+    ]
+  },
+  {
+    "id": "ui_ux_designers",
+    "domain": "UI/UX Designers",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a UX designer, I want to create wireframes for the new onboarding flow so that users have a smoother experience.",
+      "As a UI designer, I want to implement accessible color schemes so that the app complies with WCAG standards.",
+      "As a UX researcher, I want to conduct usability tests on the new prototype so that we validate design assumptions.",
+      "As a UI designer, I want to access a library of reusable components, so that I can design consistent user interfaces.",
+      "As a UX designer, I want to test user flow with real users, so I can optimize for ease of use."
+    ]
+  },
+  {
+    "id": "software_development",
+    "domain": "Software Development",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a software developer, I want to integrate third-party authentication so that users can log in using Google or Facebook.",
+      "As a developer, I want to refactor legacy code so that it's easier to maintain.",
+      "As a developer, I want to add unit tests to the new features so that we ensure code quality.",
+      "As a developer, I want to integrate third-party APIs, so I can extend functionality quickly.",
+      "As a developer, I want to automate the deployment pipeline, so I can reduce manual errors."
+    ]
+  },
+  {
+    "id": "scrum_masters",
+    "domain": "Scrum Masters",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a Scrum Master, I want to run effective retrospectives so that the team continuously improves.",
+      "As a Scrum Master, I want to track impediments in a shared document so that they are resolved quickly.",
+      "As a Scrum Master, I want to mentor junior Scrum Masters so that they can grow into confident facilitators.",
+      "As a Scrum Master, I want to generate a Sprint health report, so I can identify blockers early.",
+      "As a Scrum Master, I want to receive alerts when burndown trends are off track, so I can take corrective action."
+    ]
+  },
+  {
+    "id": "developers",
+    "domain": "Developers",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a backend developer, I want to optimize database queries so that we improve API response times.",
+      "As a frontend developer, I want to implement lazy loading for images so that page speed improves.",
+      "As a mobile developer, I want to enable offline access so that users can use the app without an internet connection.",
+      "As a backend developer, I want to log errors with trace IDs, so I can debug issues faster.",
+      "As a frontend developer, I want to preload assets, so users experience faster load times."
+    ]
+  },
+  {
+    "id": "product_owners",
+    "domain": "Product Owners",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a product owner, I want to define acceptance criteria for each user story so that developers know when a story is complete.",
+      "As a product owner, I want to groom product backlog every week so that it stays prioritized and ready for development.",
+      "As a product owner, I want to present the sprint review to stakeholders so that they stay informed.",
+      "As a product owner, I want to groom the backlog weekly, so the team is always ready for sprint planning.",
+      "As a product owner, I want to define the MVP scope, so we deliver value early."
+    ]
+  },
+  {
+    "id": "business_analysts",
+    "domain": "Business Analysts",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a business analyst, I want to conduct stakeholder interviews so that I gather detailed business requirements.",
+      "As a business analyst, I want to document business rules so that developers have clear guidance.",
+      "As a business analyst, I want to validate requirements through prototypes so that assumptions can be tested early.",
+      "As a business analyst, I want to define data requirements, so developers can implement correct data capture.",
+      "As a business analyst, I want to create process flow diagrams, so stakeholders understand system behavior."
+    ]
+  },
+  {
+    "id": "functionality_features",
+    "domain": "Functionality Features",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a user, I want to reset my password so that I can regain access to my account.",
+      "As an admin, I want to export user data to CSV so that I can analyze it in Excel.",
+      "As a customer, I want to filter products by category so that I can find what I’m looking for faster.",
+      "As a user, I want to reset my password via email, so I can regain access if I forget it.",
+      "As a user, I want to download my invoices, so I can keep track of expenses."
+    ]
+  },
+  {
+    "id": "mobile_app",
+    "domain": "Mobile App",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a mobile user, I want to receive push notifications for order updates so that I stay informed.",
+      "As a user, I want to scan QR codes from within the app so that I can redeem offers quickly.",
+      "As a traveler, I want to download my itinerary so that I can view it offline.",
+      "As a mobile user, I want to sign in with Face ID, so I can log in quickly.",
+      "As a mobile user, I want the app to remember my last location, so I can resume where I left off."
+    ]
+  },
+  {
+    "id": "web_application",
+    "domain": "Web Application",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a visitor, I want to log in via Google so that I don't need to remember another password.",
+      "As a user, I want to edit my profile so that I can update personal details.",
+      "As a team member, I want to mention colleagues in comments so that we collaborate better."
+    ]
+  },
+  {
+    "id": "analytics_and_reporting",
+    "domain": "Analytics & Reporting",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a marketer, I want to track campaign performance so that I know what’s working.",
+      "As a product manager, I want to see feature usage metrics so that I can prioritize improvements.",
+      "As an analyst, I want to segment users by geography so that I can find regional trends.",
+      "As a marketing manager, I want to track conversion rates per campaign, so I can optimize spend.",
+      "As a user, I want to view usage stats, so I can monitor my activity."
+    ]
+  },
+  {
+    "id": "security",
+    "domain": "Security",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a user, I want to receive an email when someone logs in from a new device so that I can detect unauthorized access.",
+      "As an admin, I want to enforce two-factor authentication so that user accounts are more secure.",
+      "As a developer, I want to validate input fields so that the app is protected from injection attacks.",
+      "As a system admin, I want two-factor authentication, so user accounts are more secure.",
+      "As a user, I want to log out automatically after inactivity, so my account stays safe."
+    ]
+  },
+  {
+    "id": "internationalization",
+    "domain": "Internationalization",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a user, I want to choose my language preference so that I can use the app in my native language.",
+      "As an admin, I want to set country-specific tax rules so that pricing is accurate.",
+      "As a translator, I want to export UI strings so that I can localize the app easily."
+    ]
+  },
+  {
+    "id": "testing_and_qa",
+    "domain": "Testing & QA",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a QA tester, I want to test the checkout flow so that we catch bugs before release.",
+      "As a tester, I want to run regression tests after every deployment so that existing features don’t break.",
+      "As a developer, I want to create test cases for edge scenarios so that we prevent crashes.",
+      "As a QA engineer, I want to write test cases from acceptance criteria, so I can verify stories effectively.",
+      "As a QA tester, I want to run regression tests on each build, so previous features remain intact."
+    ]
+  },
+  {
+    "id": "onboarding_and_training",
+    "domain": "Onboarding & Training",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a new user, I want to see a guided tour on my first login so that I understand how to use the platform.",
+      "As a team lead, I want to assign training modules to new hires so that they ramp up quickly.",
+      "As an employee, I want to access video tutorials so that I can learn at my own pace.",
+      "As a new user, I want a guided tour, so I can learn how to use the product.",
+      "As a user, I want a checklist to complete setup, so I don’t miss anything important."
+    ]
+  },
+  {
+    "id": "performance",
+    "domain": "Performance",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a user, I want pages to load in under 2 seconds, so I don't lose interest.",
+      "As a developer, I want to lazy load images, so performance improves on slow networks."
+    ]
+  },
+  {
+    "id": "workflow_automation",
+    "domain": "Workflow Automation",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As an operations manager, I want to automate task assignments, so repetitive processes are faster.",
+      "As a sales manager, I want to auto-send emails after form submissions, so leads are followed up immediately."
+    ]
+  },
+  {
+    "id": "accessibility",
+    "domain": "Accessibility",
+    "source_url": "https://agilemania.com/user-story-examples?",
+    "stories": [
+      "As a visually impaired user, I want to use screen readers, so I can navigate the app independently.",
+      "As a user, I want to use keyboard navigation, so I can interact without a mouse."
+    ]
+  },
+  {
+    "id": "food_delivery_app",
+    "domain": "Food Delivery App",
+    "source_url": "https://agilemania.com/what-is-a-user-story",
+    "stories": [
+      "As a user who has decided what to order, I want to proceed to checkout so that I can complete my order and have my food delivered to me.",
+      "As a user who has placed an order, I want to schedule my delivery time so that I can choose a time for the food to be delivered when it works best with my schedule.",
+      "As a user, I want to see my order history so that I can easily reorder my previous orders or keep track of what I ordered before.",
+      "As a customer, I want to view my food order in real time so that I know when to expect my delivery.",
+      "As a user, I want to be able to pay securely using my preferred method (credit card, wallet, or cash) so that I can easily pay for my order.",
+      "As a customer, I want to view my past orders so that I can reorder my favorite meals easily.",
+      "As a user, I want to receive notifications about my order status and delivery time so that I am updated without having to open the app.",
+      "As a customer, I want to be able to rate my order and leave it a review to share my experience and help others make decisions.",
+      "As a signed-up user, I want to update my personal information and delivery addresses to guarantee proper delivery of my ordered items.",
+      "As a returning customer, I want to apply discount codes and view available deals so I can save money on my orders.",
+      "As a shopper, I want to talk to customer service through the app so I can resolve issues with my order more quickly."
+    ]
+  }
+]
