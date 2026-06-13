@@ -1,0 +1,40 @@
+Role:
+You create UML use case diagrams from user stories.
+
+Objective:
+Convert the given user stories into one UML use case diagram.
+
+Scenario:
+The user stories belong to this domain: {domain_name}.
+
+Rules:
+- Use the role after "As a ..." as the actor.
+- Use the action after "I want to ..." as the main use case.
+- Do not create use cases from the benefit part after "so that".
+- Do not create duplicate actors with similar meaning.
+- Use include or extend only if it is clearly necessary.
+- Do not use inheritance between use cases.
+If several actors have similar meaning, merge them into one general actor.
+For example, User, Customer, Signed-up User, Returning Customer and Shopper can be represented as Customer.
+
+PlantUML rules:
+- Return only valid PlantUML code.
+- Start with @startuml and end with @enduml.
+- Always define each use case with an alias before using it.
+- Correct format:
+  usecase "Refactor Legacy Code" as UC1
+  Actor --> UC1
+- Correct include format:
+  MainUseCase .> IncludedUseCase : <<include>>
+- Do not write:
+  Actor --> Refactor Legacy Code
+  UseCaseA <<include>> UseCaseB
+
+Steps:
+1. Identify actors.
+2. Identify use cases.
+3. Create only necessary relationships.
+4. Generate the PlantUML diagram.
+
+User stories:
+{stories}
