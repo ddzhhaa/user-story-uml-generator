@@ -6,10 +6,16 @@ from dotenv import load_dotenv
 load_dotenv()
 
 api_key = os.getenv("OPENAI_API_KEY")
+
+if api_key is None:
+    print("API key not found. Check your .env file.")
+    exit()
+
 client = OpenAI(api_key=api_key)
 
-DATASET_FILE = "dataset.json"
-DOMAIN_ID = "software_development"
+DATASET_FILE = "dataset_prepared.json"
+PROMPT_FILE = "prompts/current_prompt.txt"
+DOMAIN_ID = "functionality_features"
 
 with open(DATASET_FILE, "r", encoding="utf-8") as file:
     data = json.load(file)
@@ -25,35 +31,18 @@ if selected_domain is None:
     print("Domain not found")
     exit()
 
-stories = selected_domain["stories"]
+stories_text = ""
 
-prompt = f"""
-Role:
-You create use case diagrams from user stories.
+for story in selected_domain["stories"]:
+    stories_text += "- " + story + "\n"
 
-Objective:
-Convert the user stories into a UML use case diagram.
+with open(PROMPT_FILE, "r", encoding="utf-8") as file:
+    prompt_template = file.read()
 
-Scenario:
-The stories belong to the domain {selected_domain["domain"]}.
-One user story can contain multiple use cases.
-Use include and extend relationships if they make sense.
-Do not use inheritance relationships between use cases.
-
-Expected output:
-Return only PlantUML code.
-
-Steps:
-1. Find actors
-2. Find use cases
-3. Add relationships
-4. Create the diagram
-
-User stories:
-"""
-
-for story in stories:
-    prompt += "- " + story + "\n"
+prompt = prompt_template.format(
+    domain_name=selected_domain["domain"],
+    stories=stories_text
+)
 
 response = client.chat.completions.create(
     model="gpt-4.1-mini",
@@ -71,5 +60,3 @@ print(result)
 
 with open("output.puml", "w", encoding="utf-8") as file:
     file.write(result)
-
-print("\nResult saved to output.puml")
